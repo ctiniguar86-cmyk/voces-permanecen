@@ -9,10 +9,10 @@ const datosAcademicos = {
 
 // No asignar responsabilidades sin acuerdo. No usar retratos ficticios.
 const integrantes = [
-  { nombre: "Gerson Ottoniel Tuiz Xoquic.", responsabilidad: "", ruta: "imagenes/Integrante-1.jpeg", alt: "Fotografía de Gerson Ottoniel Tuiz Xoquic." },
+  { nombre: "Gerson Ottoniel Tuiz Xoquic.", responsabilidad: "", ruta: "imagenes/integrante-1.jpeg", alt: "Fotografía de Gerson Ottoniel Tuiz Xoquic." },
   { nombre: "Cesar Tomas Tinuguar Rodriguez.", responsabilidad: "", ruta: "imagenes/integrante-3.jpeg", alt: "Fotografía de Cesar Tomas Tinuguar Rodriguez." },
-  { nombre: "Erick Obed Roquel Raxtún.", responsabilidad: "", ruta: "imagenes/Integrante-2.jpeg", alt: "Fotografía de Erick Obed Roquel Raxtún." },
-  { nombre: "Joseph Ezequiel Cojtín Cuj.", responsabilidad: "", ruta: "imagenes/Integrante-4.jpeg", alt: "Fotografía de Joseph Ezequiel Cojtín Cuj." }
+  { nombre: "Erick Obed Roquel Raxtún.", responsabilidad: "", ruta: "imagenes/integrante-2.jpeg", alt: "Fotografía de Erick Obed Roquel Raxtún." },
+  { nombre: "Joseph Ezequiel Cojtín Cuj.", responsabilidad: "", ruta: "imagenes/integrante-4.jpeg", alt: "Fotografía de Joseph Ezequiel Cojtín Cuj." }
 ];
 
 // Completar con personas hablantes. disponible:true SOLO tras revisión y permiso
@@ -25,7 +25,7 @@ const audios = Array.from({ length: 6 }, (_, i) => ({
 
 //Audio
 audios[0].titulo = "Primera expresión";
-audios[0].ruta = "Audio/01.mpeg";
+audios[0].ruta = "audio/01.mpeg";
 audios[0].disponible = true;
 
 
